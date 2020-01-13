@@ -3,10 +3,10 @@ package handlers
 import (
 	"encoding/xml"
 	"fmt"
-	"github.com/samedi/caldav-go/data"
-	"github.com/samedi/caldav-go/global"
-	"github.com/samedi/caldav-go/ixml"
-	"github.com/samedi/caldav-go/lib"
+	"simonwaldherr.de/go/caldav-go/data"
+	"simonwaldherr.de/go/caldav-go/global"
+	"simonwaldherr.de/go/caldav-go/ixml"
+	"simonwaldherr.de/go/caldav-go/lib"
 	"net/http"
 )
 

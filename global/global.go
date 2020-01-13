@@ -3,8 +3,8 @@
 package global
 
 import (
-	"github.com/samedi/caldav-go/data"
-	"github.com/samedi/caldav-go/lib"
+	"simonwaldherr.de/go/caldav-go/data"
+	"simonwaldherr.de/go/caldav-go/lib"
 )
 
 // Storage represents the global storage used in the CRUD operations of resources. Default storage is the `data.FileStorage`.

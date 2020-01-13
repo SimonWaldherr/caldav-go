@@ -1,8 +1,8 @@
 package data
 
 import (
-	"github.com/samedi/caldav-go/errs"
-	"github.com/samedi/caldav-go/files"
+	"simonwaldherr.de/go/caldav-go/errs"
+	"simonwaldherr.de/go/caldav-go/files"
 	"io/ioutil"
 	"log"
 	"os"

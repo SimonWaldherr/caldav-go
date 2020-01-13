@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/samedi/caldav-go/lib"
+	"simonwaldherr.de/go/caldav-go/lib"
 )
 
 const (

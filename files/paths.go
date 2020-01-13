@@ -1,7 +1,7 @@
 package files
 
 import (
-	"github.com/samedi/caldav-go/lib"
+	"simonwaldherr.de/go/caldav-go/lib"
 	"path/filepath"
 	"strings"
 )
@@ -10,11 +10,14 @@ const (
 	Separator = string(filepath.Separator)
 )
 
+var (
+	StoragePath = "/var/www/icsdata"
+)
+
 // AbsPath converts the path into absolute path based on the current working directory.
 func AbsPath(path string) string {
-	path = strings.Trim(path, "/")
+	path = strings.TrimRight(StoragePath + path, "/")
 	absPath, _ := filepath.Abs(path)
-
 	return absPath
 }
 
